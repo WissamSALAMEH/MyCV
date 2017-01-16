@@ -1,13 +1,16 @@
 /*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
+
 --*/
 body{
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif;
 	background: #fff;
+}
+
+.download {
+    margin: 2% 0 0 0;
+    border: .3em solid silver;
+    border-radius: 1em;
 }
 body a{
 	transition: 0.5s all;
@@ -51,7 +54,7 @@ body a:hover{
     padding-left: 3em;
 }
 .header-right h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
     color: #fff;
     margin: 0.5em 0 0;
 }
@@ -75,10 +78,10 @@ body a:hover{
     border-color: #F3E000 transparent transparent transparent;
 }
 .header-right h6 {
-    font-size: 1em;
+    font-size: 2em;
     color: #C7C7C7;
     margin-top: 0.8em;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 }
 ul.address {
     margin-top: 2em;
@@ -146,9 +149,9 @@ h3.title {
 	margin-bottom: 1em;
 }
 p {
-    font-size: 1em;
+    font-size: 1.4em;
     color: #999;
-    line-height: 1.8em;
+    line-height: 1.6em;
 }
 .about-right {
     padding-left: 5em;
@@ -784,6 +787,9 @@ h3.title {
 }
 .grid p {
     letter-spacing: 1px;
+}
+.download {
+    
 }
 .contact-left iframe {
     width: 100%;
